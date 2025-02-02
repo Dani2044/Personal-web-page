@@ -1,6 +1,6 @@
 # Personal Web Project
 
-This project showcases my personal skills, built using HTML and CSS. It consists of multiple sections highlighting my background, experiences, and interests, and is available at [Github Pages]([https://github.com/Dani2044](https://dani2044.github.io/Personal-web-page/).
+This project showcases my personal skills, built using HTML and CSS. It consists of multiple sections highlighting my background, experiences, and interests, and is available at [Github Pages]([https://github.com/Dani2044](https://dani2044.github.io/Personal-web-page/)).
 
 ## Features
 
