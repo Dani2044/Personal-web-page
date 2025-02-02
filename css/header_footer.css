@@ -36,6 +36,11 @@ body {
     flex-wrap: nowrap;
 }
 
+/* Menu Title Style */
+.menu_bar h1 {
+    color: white;
+}
+
 /* List Style for Menu */
 .unordered_list {
     display: flex;
@@ -76,17 +81,6 @@ body {
     color: black;
 }
 
-/* Title Style */
-.title {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    flex-grow: 1;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    white-space: nowrap;
-    color: #ffffff;
-}
-
 /* Main Section Style */
 main {
     background-image: url(../images/wood_background.jpg);
@@ -106,9 +100,20 @@ h1 {
     color: #333;
     text-align: center;
     margin-bottom: 1.5rem;
-    text-decoration: underline;
-    text-underline-offset: 0.2em;
-    color: #0099cc;
+    color: black;
+    position:relative;
+    display: inline-block;
+}
+
+/* Heading underline */
+h1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -7px;
+    left: 0;
+    height: 5px;
+    background: #0099cc;
 }
 
 /* Subheading Style */
@@ -116,9 +121,20 @@ h2 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 1.5rem;
-    text-decoration: underline;
-    text-underline-offset: 0.2em;
-    color: #0099cc;
+    color: black;
+    position:relative;
+    display: inline-block;
+}
+
+/* Subheading underline */
+h2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -7px;
+    left: 0;
+    height: 5px;
+    background: #0099cc;
 }
 
 /* Footer Style */

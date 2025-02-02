@@ -8,6 +8,15 @@
     scroll-margin-top: 120px;
 }
 
+/* Grouped Sections */
+.group-section {
+    border: 3px solid #444;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #e3e3e3, #cfcfcf);
+    padding: 20px;
+    margin-bottom: 2rem;
+}
+
 /* Index Section Style */
 .index-section ul {
     list-style: none;
@@ -17,7 +26,7 @@
 .index-section a {
     text-decoration: none;
     color: black;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     transition: color 0.3s ease;
 }
 
@@ -64,4 +73,21 @@ ol.no-style li::marker {
 ul.no-style li:hover, ol.no-style li:hover {
     background-color: #f0f0f0;
     cursor: pointer;
+}
+
+/* Subheading Style */
+h3 {
+    position:relative;
+    display: inline-block;
+}
+
+/* Subheading underline */
+h3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -7px;
+    left: 0;
+    height: 5px;
+    background: #0099cc;
 }
