@@ -1,0 +1,56 @@
+/* General Section Style */
+.hobby_section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 20px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.hobby_section img {
+    max-height: 200px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Alignment */
+.image-left {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 250px;
+    height: auto;
+}
+
+/* Text Styling */
+.hobby_section p {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Right-aligned section */
+.hobby_section.right img {
+    order: 2;
+}
+
+/* Video Styling */
+.video-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}

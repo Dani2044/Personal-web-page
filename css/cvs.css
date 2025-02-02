@@ -1,0 +1,67 @@
+/* Gradient Section Style */
+.gradient-section {
+    background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+    padding: 20px;
+    border: 2px solid #333;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    scroll-margin-top: 120px;
+}
+
+/* Index Section Style */
+.index-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.index-section a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.index-section a:hover {
+    color: hsl(261, 84%, 36%);
+}
+
+/* General List Styles */
+ul:not(.no-style), ol:not(.no-style) {
+    padding-left: 20px;
+}
+
+/* Unordered List (Bullets Style) */
+ul.no-style {
+    list-style-type: none;
+}
+
+ul.no-style li {
+    font-size: 1.1rem;
+    color: #333;
+    padding-left: 20px;
+}
+
+/* Custom Bullet for Unordered List Items */
+ul.no-style li::marker {
+    content: "\2022";
+    font-size: 1.5rem;
+    color: hsl(261, 84%, 36%);
+}
+
+ol.no-style li {
+    font-size: 1.1rem;
+    color: #333;
+    padding-left: 25px;
+}
+
+/* Custom Number Styling for Ordered List Items */
+ol.no-style li::marker {
+    color: hsl(261, 84%, 36%);
+    font-weight: bold;
+}
+
+/* Hover Effect for List Items */
+ul.no-style li:hover, ol.no-style li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
