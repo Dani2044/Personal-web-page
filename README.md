@@ -1,42 +1,48 @@
-# Hobbies Website - Daniel Felipe Castro Moreno
+# Personal Portfolio Project
 
-Este proyecto es un sitio web desarrollado con **HTML y CSS**, diseñado para presentar información sobre mis intereses, biografía y experiencia profesional.
+This project showcases my personal portfolio, built using HTML and CSS. It consists of multiple sections highlighting my background, experiences, and interests.
 
-## 🌟 Características Principales
+## Features
 
-- **Diseño Estilizado:** Uso de estilos personalizados con CSS para una presentación limpia y atractiva.
-- **Navegación Intuitiva:** Barra de menú fija en la parte superior para facilitar el acceso a las diferentes secciones.
-- **Uso de Tipografías Modernas:** Integración de fuentes de Google Fonts para mejorar la estética del contenido.
-- **Imágenes y Contenido Multimedia:** Se incluyen imágenes representativas de cada hobby y un video embebido de YouTube.
-- **Estructura Organizada:** Secciones bien definidas con títulos destacados y contenido bien distribuido.
-- **Diseño Visual Mejorado:** Uso de colores, bordes y fondos en gradiente para dar un aspecto más profesional.
+### 1. Welcome Page
+- Contains a floating image within a text block of at least 15 lines.
+- Images in this section have a thin black continuous border.
 
-## 📌 Páginas Incluidas
+### 2. Biography
+- Personal and professional details are presented in a structured table format.
 
-1. **Inicio** - Presentación con una imagen flotante dentro de un texto descriptivo.
-2. **Biografía** - Información organizada en una tabla estructurada.
-3. **CV** - Secciones detalladas sobre experiencia laboral, estudios y logros, con navegación interna optimizada.
-4. **Hobbies** - Descripción de películas, libros y otros intereses, con imágenes y enlaces a contenido relevante.
+### 3. Curriculum Vitae (CV)
+- Displays my academic background, work experience, achievements, and intellectual contributions.
+- Organized into sections and subsections using ordered and unordered lists.
+- Includes a navigation index at the top for quick access to different sections.
+- Subsections have continuous borders with a gradient background.
+- Unordered lists feature bullet points in a color different from the text.
+- Ordered lists have numbers styled in a distinct color from the text.
 
-## 🎨 Diseño y Estilo
+### 4. Interests and Hobbies
+- Features a collection of favorite movies, books, video games, or other hobbies.
+- Embedded YouTube video.
+- Includes images and links to relevant resources.
 
-- Todos los títulos tienen subrayado de color azul claro para resaltar.
-- Tablas con colores alternados para filas, facilitando la lectura de la información.
-- Listas ordenadas y no ordenadas estilizadas con colores diferenciados en viñetas y numeraciones.
-- Efectos en la barra de navegación que resaltan las opciones al pasar el cursor.
+## Additional Styling and Functionalities
+- All titles are underlined with a light blue color.
+- The project uses one or more fonts from [Google Fonts](https://fonts.google.com/).
+- A static top navigation menu allows seamless page access.
+  - It remains fixed at the top while scrolling.
+  - Menu options highlight in a different color on hover.
+- Tables have alternating background colors:
+  - Header: Dark blue background with bold white text.
+  - Even rows: White background with black text.
+  - Odd rows: Light green background with black text.
 
-## 🚀 Tecnologías Utilizadas
+## Technologies Used
+- **HTML5** for structured content.
+- **CSS3** for styling and layout.
+- **Google Fonts** for typography.
 
-- **HTML5** para la estructura del contenido.
-- **CSS3** para el diseño y la presentación visual.
-- **Google Fonts** para mejorar la tipografía.
-- **YouTube Embed** para la integración de contenido multimedia.
-
-### 📩 Contacto
-Si deseas conocer más sobre este proyecto o colaborar, puedes contactarme a través de:
+## Author
+**Daniel Felipe Castro Moreno**  
+Connect with me:
 - [GitHub](https://github.com/Dani2044)
 - [LinkedIn](https://www.linkedin.com/in/daniel-felipe-castro-moreno)
 - [Instagram](https://www.instagram.com/danielcastrofm)
-
----
-**© 2025 Daniel Felipe Castro Moreno. Todos los derechos reservados.**
