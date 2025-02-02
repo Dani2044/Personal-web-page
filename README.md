@@ -1,6 +1,6 @@
-# Personal Portfolio Project
+# Personal Web Project
 
-This project showcases my personal portfolio, built using HTML and CSS. It consists of multiple sections highlighting my background, experiences, and interests.
+This project showcases my personal skills, built using HTML and CSS. It consists of multiple sections highlighting my background, experiences, and interests, and is available at [Github Pages](https://dani2044.github.io/Personal-web-page/).
 
 ## Features
 
